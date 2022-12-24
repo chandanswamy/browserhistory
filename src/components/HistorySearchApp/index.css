@@ -1,0 +1,123 @@
+* {
+  font-family: Roboto;
+}
+
+.history-navbar {
+  background-color: #3367d6;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .history-navbar {
+    background-color: #3367d6;
+    padding: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+.history-logo {
+  height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .history-logo {
+    height: 32px;
+  }
+}
+
+.search-container {
+  height: 40px;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #2850a7;
+  border-radius: 4px;
+  border: 1px solid #ececec;
+}
+
+@media screen and (min-width: 768px) {
+  .search-container {
+    height: 40px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #2850a7;
+    border-radius: 4px;
+    border: 1px solid #ececec;
+  }
+}
+
+.search-image {
+  height: 16px;
+  margin-left: 14px;
+  margin-right: 14px;
+  flex-shrink: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .search-image {
+    height: 22px;
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+}
+
+.search-bar {
+  background-color: transparent;
+  border: 0px;
+  height: 40px;
+  width: 100%;
+  padding-left: 12px;
+  border-left: 1px solid #ececec;
+  color: #64748b;
+}
+
+@media screen and (min-width: 768px) {
+  .search-bar {
+    background-color: transparent;
+    border: 0px;
+    height: 40px;
+    width: 100%;
+    padding-left: 16px;
+    border-left: 1px solid #ececec;
+  }
+}
+
+.search-bar:focus {
+  outline: none;
+  color: #f8fafc;
+  font-size: 16px;
+}
+
+.list-container {
+  padding: 0px;
+  margin: 22px;
+  border: 1px solid #ececec;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px 0px #64748b;
+}
+
+@media screen and (min-width: 768px) {
+  .list-container {
+    padding: 0px;
+    margin: 62px;
+    border: 1px solid #ececec;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 0px #64748b;
+  }
+}
+
+.no-history {
+  text-align: center;
+  font-size: 22px;
+  color: #475569;
+}
